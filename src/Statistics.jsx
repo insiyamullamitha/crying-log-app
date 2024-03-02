@@ -1,9 +1,9 @@
-import LoggingGrid from "./LoggingGrid";
+import LogDay from "./LogDay";
 
 const Statistics = () => {
   return (
     <div className="text-center mt-12">
-      <LoggingGrid />
+      <LogDay />
     </div>
   );
 };
