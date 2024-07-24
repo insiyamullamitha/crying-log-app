@@ -11,6 +11,7 @@ import SignUp from "./SignUp";
 import Home from "./Home";
 import Statistics from "./Statistics";
 import "./App.css";
+import Calendar from "./Calendar";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           <Route path="/login" element={<LogIn />} />
           <Route path="/signup" element={<SignUp />} />
           <Route path="/statistics" element={<Statistics />} />
+          <Route path="/calendar" element={<Calendar />} />
           <Route path="*" element={<Navigate to="/" />} />
         </Routes>
       </div>

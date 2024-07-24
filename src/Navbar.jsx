@@ -4,6 +4,7 @@ import {
   PersonFill,
   BarChart,
   LayoutSidebar,
+  Calendar3,
 } from "react-bootstrap-icons";
 import { useState } from "react";
 import Sidebar from "./Sidebar";
@@ -33,6 +34,17 @@ export default function Navbar() {
             aria-label="Home"
           >
             <House size={24} />
+          </Link>
+
+          <Link
+            to="/calendar"
+            className={`text-white hover:text-lightBlue`}
+            style={{
+              color: location.pathname === "/calendar" ? "#3490dc" : "",
+            }}
+            aria-label="Calendar"
+          >
+            <Calendar3 size={24} />
           </Link>
 
           <Link

@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { House, BarChart, PersonFill } from "react-bootstrap-icons";
+import { House, BarChart, PersonFill, Calendar3 } from "react-bootstrap-icons";
 
 export default function Sidebar({ closeSidebar }) {
   return (
@@ -16,6 +16,16 @@ export default function Sidebar({ closeSidebar }) {
           <div className="flex items-center gap-2">
             <House size={24} />
             Home
+          </div>
+        </Link>
+        <Link
+          to="/calendar"
+          className="text-lightBlue hover:text-brighterBlue py-2"
+          aria-label="Calendar"
+        >
+          <div className="flex items-center gap-2">
+            <Calendar3 size={24} />
+            Calendar
           </div>
         </Link>
         <Link
