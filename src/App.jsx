@@ -4,14 +4,14 @@ import {
   Route,
   Navigate,
 } from "react-router-dom";
-import Navbar from "./Navbar";
-import Footer from "./Footer";
-import LogIn from "./LogIn";
-import SignUp from "./SignUp";
-import Home from "./Home";
-import Statistics from "./Statistics";
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
+import LogIn from "./pages/LogIn";
+import SignUp from "./pages/SignUp";
+import Home from "./pages/Home";
+import Statistics from "./pages/Statistics";
 import "./App.css";
-import Calendar from "./Calendar";
+import Calendar from "./pages/Calendar";
 
 function App() {
   return (
